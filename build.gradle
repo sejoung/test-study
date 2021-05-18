@@ -1,0 +1,24 @@
+plugins {
+  id 'java'
+}
+
+group = 'io.github.sejoung'
+version = '0.0.1'
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile 'org.junit.jupiter:junit-jupiter:5.7.1'
+  testCompile 'org.assertj:assertj-core:3.19.0'
+}
+
+test {
+  useJUnitPlatform()
+}
