@@ -1,4 +1,4 @@
-package io.github.sejoung.fake;
+package io.github.sejoung.best;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

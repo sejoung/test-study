@@ -1,4 +1,4 @@
-package io.github.sejoung.fake;
+package io.github.sejoung.best;
 
 public interface Order {
   boolean isValidated();
