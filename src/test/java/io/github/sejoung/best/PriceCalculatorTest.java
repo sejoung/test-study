@@ -4,12 +4,14 @@ import static org.assertj.core.api.Assertions.*;
 
 import java.time.LocalDateTime;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 class PriceCalculatorTest {
 
+  @Disabled
   @DisplayName("Seam 도입 전")
   @Nested
   class NotSeam {
